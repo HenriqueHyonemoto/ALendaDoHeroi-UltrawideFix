@@ -66,7 +66,7 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
   <li>Área da Intro Expandida (Para se adequar à nova resolução)</li>  
   <ul>
     <p>Essa intro foi estendida utilizando o próprio código, sem necessidade de edição do vídeo.</p>
-    <img src="https://github.com/HenriqueHyonemoto/UltrawideMOD-ALDH/assets/128445385/313ee23d-55cd-4747-b5b1-ea5538b3c794" width="800px">
+    <img src="https://github.com/user-attachments/assets/ab027292-b86a-4f88-a48c-dd8df0d4882f" width="800px">
   </ul>
   <hr>
   <br>
