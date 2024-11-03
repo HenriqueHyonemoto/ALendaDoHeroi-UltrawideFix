@@ -103,13 +103,19 @@ Legendas de uma Linha em Batalha com Boss
 </ul>
 <HR>
 <li>LowLifeShader (Para se aplicar a nova area)</li>
-<li>Bordas cinematograficas, Stage Intro e Stage Title(Corrigido as posições)</li>
+<li>Bordas cinematograficas, Stage Intro e Stage Title (Corrigido a posição e animação)</li>
 <ul>
 <img src="https://github.com/user-attachments/assets/7ad41124-087d-4cd4-b6ef-c05c0ac67676" width="800px">
 </ul>
 <HR>
 
 <li>Lame Transition (Corrigido a area do efeito transição das fases)</li>
+<ul>
+  Corrigido a renderização da transição de fase.
+  <img src="https://github.com/user-attachments/assets/e1cdf144-de9d-48bc-bae8-ec2769cc26e1" width="800px">
+</ul>
+<hr>
+<br>
 <li>Parallax Texture Render loopX </li>
 <ul>
 Corrigido a renderização do cenário "Parallax" do fundo das fases ao andar para a esquerda e direita.
@@ -127,8 +133,8 @@ Corrigido a renderização do cenário "Parallax" do fundo das fases ao subir e 
 <hr>
 <br>
 <li>Shaders do Boss (Gorilize, tint, white etc) </li>
-Corrigido um bug no qual os bosses ficavam esticados quando entravam na segunda etapa, e não condizia com a area da sua Hitbox após passar para a segunda etapa de fight.
 <ul>
+  Corrigido um bug no qual os bosses ficavam esticados quando entravam na segunda etapa, e não condizia com a area da sua Hitbox após passar para a segunda etapa de fight.
 <img src="https://github.com/user-attachments/assets/05c257de-4c15-4ac5-9003-e2413da82103" width="800px">
 <img src="https://github.com/user-attachments/assets/c363171b-b11b-48f5-8141-1fced5052bc0" width="800px">
 </ul>
