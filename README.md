@@ -289,20 +289,20 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
   <img src="https://github.com/user-attachments/assets/af4acd80-a2be-412d-9a10-e9e94257ae5f" width="250px"> ->
   <img src="https://github.com/user-attachments/assets/324fa882-ce66-4517-b2f2-8bc4629b4045" width="500px">
   <li>Content/Objects/tornado_front.xnb</li>
-  <img src="https://github.com/user-attachments/assets/e44012d7-e2c8-4819-acd8-db485d506381" width="300px"> ->
-  <img src="https://github.com/user-attachments/assets/324057a2-a9f2-4038-9aa5-334e1bc13c57" width="600px">
+  <img src="https://github.com/user-attachments/assets/e44012d7-e2c8-4819-acd8-db485d506381" width="250px"> ->
+  <img src="https://github.com/user-attachments/assets/324057a2-a9f2-4038-9aa5-334e1bc13c57" width="500px">
 </ul>
 <li>Fase 6: Aurora (Corrigido a renderização das Auroras Boreais)</li>
 <ul>
   <li>Content/Levels/6/aurora/1.xnb</li>
-  <img src="https://github.com/user-attachments/assets/f8b6d365-12be-4e17-a95c-50db86ba6302" width="300px"> ->
-  <img src="https://github.com/user-attachments/assets/71e0588f-fdd9-47bd-a0dc-077d7e99fcf3" width="600px">
+  <img src="https://github.com/user-attachments/assets/f8b6d365-12be-4e17-a95c-50db86ba6302" width="250px"> ->
+  <img src="https://github.com/user-attachments/assets/71e0588f-fdd9-47bd-a0dc-077d7e99fcf3" width="500px">
   <li>Content/Levels/6/aurora/2.xnb</li>
-  <img src="https://github.com/user-attachments/assets/7748b206-71fa-4286-9026-49c067961aff" width="300px"> ->
-  <img src="https://github.com/user-attachments/assets/c073f9d2-edbd-47f4-848a-dd8c36d26098" width="600px">
+  <img src="https://github.com/user-attachments/assets/7748b206-71fa-4286-9026-49c067961aff" width="250px"> ->
+  <img src="https://github.com/user-attachments/assets/c073f9d2-edbd-47f4-848a-dd8c36d26098" width="500px">
   <li>Content/Levels/6/aurora/3.xnb</li>
-  <img src="https://github.com/user-attachments/assets/fe7dbdf3-1613-42e3-ba8f-c0dfff41d264" width="300px"> ->
-  <img src="https://github.com/user-attachments/assets/37ce8096-ac19-4569-8b0a-f4a84338dca0" width="600px">
+  <img src="https://github.com/user-attachments/assets/fe7dbdf3-1613-42e3-ba8f-c0dfff41d264" width="250px"> ->
+  <img src="https://github.com/user-attachments/assets/37ce8096-ac19-4569-8b0a-f4a84338dca0" width="500px">
 </ul>
 </ul>
 
