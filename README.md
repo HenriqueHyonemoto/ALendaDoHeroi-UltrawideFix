@@ -13,7 +13,23 @@ Este mod foi feito com base na modificação do executavel do jogo na versão 5.
 
 <ul>
 <li>Saia da sua Steam (Steam -> Sair)</li>
-  
+<li>Acesse a sua pasta da steam e localize "steamapps" (padrão: C:\Program Files\Steam\SteamApps\)</li>
+<li>Abra o arquivo "appmanifest_389170.acf" com o bloco de notas</li>
+<UL>
+  <LI>Verifique se o nome "Songs for a Hero consta no arquivo"</LI>
+  <Li>Mude o valor de "StateFlags"	para "4"</Li>
+  <img src="https://github.com/user-attachments/assets/4bc327ed-5680-4cd3-8114-1279cd37d86b" width="800px">
+</UL>
+  <br>
+<li>Agora sempre que for executar o jogo, abra através do seu executavél na pasta que que está instalado</li>
+  <br>
+      Se você não sabe onde esta localizado siga estes passos:
+  <UL>
+  <LI>Abra sua biblioteca Steam</LI>
+  <Li>Procure pelo jogo -> Clique com o botão direito -> Gerenciar -> Explorar Arquivos locais 
+    <img src="https://github.com/user-attachments/assets/d465ca2c-1006-4641-9c26-b0387abe3999" width="600px">
+</Li>
+</UL>
 </ul>
 
 <h1> O que foi modificado? </h1>
@@ -169,6 +185,10 @@ Antes ficavam a esquerda.
   <img src="https://github.com/user-attachments/assets/4ea430d2-5a29-4e34-90ab-47a371a36d77" width="800px">
 <ul>
 <li>Posição do Boomerang no Menu (Corrigido a posição do slot em que o Boomerang ocupa no Menu)</li>
+
+<img src="https://github.com/user-attachments/assets/378e1111-16a7-475c-9476-37ccfbe7d219" width="800px">
+
+<img src="https://github.com/user-attachments/assets/c103895c-31ae-48c9-ab77-fb2ac1366097" width="800px">
 
 <h2>Edições de Sprites e Videos</h2>
 <li>Imagens do Menu </li>
