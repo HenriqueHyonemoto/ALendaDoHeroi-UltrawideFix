@@ -1,217 +1,230 @@
 # ALendaDoHeroi-UltrawideFix
 
-ALendaDoHeroi-UltrawideFix é uma modificação feita para fazer com que o jogo possa renderizar em Ultrawide, 21:9 (Testado em 2560x1080).
+**ALendaDoHeroi-UltrawideFix** é uma modificação criada para permitir que o jogo seja renderizado em ultrawide (21:9). Testado em resolução 2560x1080.
 
-O Mod ainda esta em desenvolvimento, caso encontre bugs, por favor me informe!
+O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
 
 # Demonstrações (Fase de Teste)
-<a href="https://www.youtube.com/watch?v=qPiQTyTO1xE&list=PL0jT61l8O_LYy3_dyUpT_iRXWayvFjh2D&index=2"><img src="https://github.com/user-attachments/assets/739ace0f-4d3f-4d22-aa90-017c058b2986"></a>
+<a href="https://www.youtube.com/watch?v=qPiQTyTO1xE&list=PL0jT61l8O_LYy3_dyUpT_iRXWayvFjh2D&index=2">
+  <img src="https://github.com/user-attachments/assets/739ace0f-4d3f-4d22-aa90-017c058b2986">
+</a>
 
-<!--TOC -->
-<H1>índice</H1>
+<!-- TOC -->
+<h1>Índice</h1>
 
 - [Instalação](#utilizar)
-  - [Desativando Updates](#desativa-update)
+  - [Desativando Atualizações](#desativa-update)
   - [Instalando o Mod](#instalar)
-- [O Que foi Modificado?](#modificado)
+- [O que foi Modificado?](#modificado)
   - [No Código](#código)
   - [Nos Arquivos do Jogo](#arquivos)
 
-<!--/TOC -->
+<!-- /TOC -->
 
-<h1 name="utilizar">Como utilizar o Mod?</h1>
+<h1 id="utilizar">Como utilizar o Mod?</h1>
 
-Este mod foi feito com base na modificação do executavel do jogo na versão 5.1.1dx. isso significa que se você atualizar seu jogo, esse executavel vai ser substituido, e o mod deixará de funcionar, então precisamos fazer com que a steam não atualize seu jogo.
+<p>Este mod foi criado com base na modificação do executável do jogo na versão 5.1.1dx. Isso significa que, se você atualizar seu jogo, esse executável será substituído, e o mod deixará de funcionar. Portanto, precisamos fazer com que a Steam não atualize seu jogo.</p>
 
-<ul name="desativa-update">
-<li >Saia da sua Steam (Steam -> Sair)</li>
-<li>Acesse a sua pasta da steam e localize "steamapps" (padrão: C:\Program Files\Steam\SteamApps\)</li>
-<li>Abra o arquivo "appmanifest_389170.acf" com o bloco de notas</li>
-<UL>
-  <LI>Verifique se o nome "Songs for a Hero" consta no arquivo</LI>
-  <Li>Mude o valor de "StateFlags"	para "4"</Li>
-  <img src="https://github.com/user-attachments/assets/4bc327ed-5680-4cd3-8114-1279cd37d86b" width="800px">
-</UL>
+<ul id="desativa-update">
+  <li>Saia da sua Steam (Steam -> Sair).</li>
+  <li>Acesse a sua pasta da Steam e localize "steamapps" (padrão: C:\Program Files\Steam\SteamApps\).</li>
+  <li>Abra o arquivo "appmanifest_389170.acf" com o Bloco de Notas.</li>
+  <ul>
+    <li>Verifique se o nome "Songs for a Hero" consta no arquivo.</li>
+    <li>Altere o valor de "StateFlags" para "4".</li>
+    <img src="https://github.com/user-attachments/assets/4bc327ed-5680-4cd3-8114-1279cd37d86b" width="800px">
+  </ul>
   <br>
-<li>Agora sempre que for executar o jogo, abra através do seu executavél na pasta que que está instalado</li>
+  <li>Agora, sempre que for executar o jogo, abra-o através do seu executável na pasta onde ele está instalado.</li>
   <br>
-      Se você não sabe onde esta localizado siga estes passos:
-  <UL name="instalar">
-  <LI>Abra sua biblioteca Steam</LI>
-  <Li>Procure pelo jogo -> Clique com o botão direito -> Gerenciar -> Explorar Arquivos locais 
-  <li>Faça <a href="">download</a> desse repositorio, e copie todos os arquivos pra dentro deste diretório (Para instalar o mod)</li>
+  <p>Se você não sabe onde o jogo está localizado, siga estes passos:</p>
+  <ul id="instalar">
+    <li>Abra sua biblioteca Steam.</li>
+    <li>Procure pelo jogo -> Clique com o botão direito -> Gerenciar -> Explorar Arquivos Locais.</li>
+    <li>Faça o <a href="">download</a> deste repositório e copie todos os arquivos para dentro deste diretório (para instalar o mod).</li>
     <img src="https://github.com/user-attachments/assets/d465ca2c-1006-4641-9c26-b0387abe3999" width="600px">
-  <li>Feito isso, você pode criar um atalho clicando com o botão direito em "DumaLegend" > Enviar Para -> Area de Trabalho</li>
-</Li>
-</UL>
+    <li>Feito isso, você pode criar um atalho clicando com o botão direito em "DumaLegend" -> Enviar Para -> Área de Trabalho.</li>
+  </ul>
 </ul>
 
-<h1 name = "modificado"> O que foi modificado? </h1>
-Para mudar a renderização do jogo de 16:9 para 21:9, foi necessario alterar valores e funções dentro do código do executavél, também necessario fazer ajustes de posição em icones, menus, desenhar a area "extra" em certos sprites, e corrigir varios bugs que a mudança causou.
+
+<h1 id="modificado">O que foi modificado?</h1>
+<p>Para ajustar a renderização do jogo de 16:9 para 21:9, foi necessário alterar valores e funções dentro do código do executável. Também foram feitos ajustes na posição de ícones, menus, ampliação da área "extra" em certos sprites e correções de vários bugs causados pela nova resolução.</p>
+
 <ul>
-<h2>Código</h2>
-<li>Posição das Logos durante a Intro (Foram Centralizadas)</li>
+  <h2>Código</h2>
+  <li>Posição das Logos durante a Intro (Centralizadas)</li>
   <ul>
-    <p float="left">
-  <img src="https://github.com/user-attachments/assets/469d2d78-2b8b-41d5-a642-c85a23e8dd00" width="310px">
-  <img src="https://github.com/user-attachments/assets/53928dde-f34a-42b3-99bd-38300731e474" width="310px">
-  <img src="https://github.com/user-attachments/assets/bfec68e2-1fbc-44d5-abff-bab09d3ad084" width="310px">
-</p>
-</ul>
-<HR>
-<li>Expandido a area da intro do inicio (Para se adequar a nova resolução)</li>  
-<ul>
-Essa intro foi extendida utilizando o proprio código, sem a necessidade de aumentar editando o video.
-
-<img src="https://github.com/HenriqueHyonemoto/UltrawideMOD-ALDH/assets/128445385/313ee23d-55cd-4747-b5b1-ea5538b3c794" width="800px">
-
-</ul>
-<HR>
-<br>
-<li>Tela de Loading </li>
-<ul>
-  Posição dos elementos para nova area (Texto Centralizado, Heroi mais a direita).
-  <img src="https://github.com/user-attachments/assets/ef01c7da-8e0a-4546-80f2-1c6db827a1f8" width="800px">
-</ul>
-<HR>
-<br>
-<li>Menus</li>
+    <p style="float:left;">
+      <img src="https://github.com/user-attachments/assets/469d2d78-2b8b-41d5-a642-c85a23e8dd00" width="310px">
+      <img src="https://github.com/user-attachments/assets/53928dde-f34a-42b3-99bd-38300731e474" width="310px">
+      <img src="https://github.com/user-attachments/assets/bfec68e2-1fbc-44d5-abff-bab09d3ad084" width="310px">
+    </p>
+  </ul>
+  <hr>
+  
+  <li>Área da Intro Expandida (Para se adequar à nova resolução)</li>  
   <ul>
-    <li>Posição dos itens do Menu, Submenu e Armario</li>
-    (Posição dos itens, opções, cursor foram corrigidas)
+    <p>Essa intro foi estendida utilizando o próprio código, sem necessidade de edição do vídeo.</p>
+    <img src="https://github.com/HenriqueHyonemoto/UltrawideMOD-ALDH/assets/128445385/313ee23d-55cd-4747-b5b1-ea5538b3c794" width="800px">
+  </ul>
+  <hr>
+  <br>
+  
+  <li>Tela de Carregamento</li>
+  <ul>
+    <p>Posicionamento dos elementos ajustado para a nova área (Texto centralizado, Herói mais à direita).</p>
+    <img src="https://github.com/user-attachments/assets/ef01c7da-8e0a-4546-80f2-1c6db827a1f8" width="800px">
+  </ul>
+  <hr>
+  <br>
+  
+  <li>Menus</li>
+  <ul>
+    <li>Posicionamento dos itens do Menu, Submenu e Armário</li>
+    <p>(Posição dos itens, opções e cursor corrigidos)</p>
     <img src="https://github.com/user-attachments/assets/498d050c-e99d-45c0-b703-0f95df03c12a" width="800px">
     <img src="https://github.com/user-attachments/assets/87f69e9d-2510-46f9-ae02-fc1b4dd4e298" width="800px">
   </ul>
-  <HR>
-  <BR>
-<li>Tela de Pause </li>
-<ul>
-Animações e posições não funcionavam corretamente.
-<img src="https://github.com/user-attachments/assets/4f76c096-c3dc-42b1-a916-9c9e3d48d80a" width="800px">
-</ul>
-<HR>
-<BR>
-<li>Legendas (DisconectedMelody) </li>
-<ul>
-  
-Corrigido bug no qual alguns tipos especificos de legendas não apareciam 
-
-Nas Cutscenies de pegar item Especial
-<img src="https://github.com/user-attachments/assets/896b1c83-c346-4a43-a526-a7bbf4191ff5" width="800px">
-  
-<br>
-Falas do CID<br>
-<img src="https://github.com/user-attachments/assets/6e7de5f8-3a33-4c65-997d-88a2b9a45cd2" width="800px">
-
-<br><br>
-Legendas de uma Linha em Batalha com Boss
-<img src="https://github.com/user-attachments/assets/40b2c3fb-daf3-40e8-b700-3cbbf7668a94" width="800px">
-
-</ul>
-<HR>
-<BR>
-<li>Posição do Herói na Tela </li>
-<ul>
-  Corrigido bug no qual a Camera não acompanhava o herói corretamente.
-<img src="https://github.com/user-attachments/assets/cc5cc108-dc83-4665-a724-7eacae03dec8" width="800px">
-
-</ul>
-<HR>
-<BR>
-<li>"Shake" na camera ao levar dano</li>
-<ul>
-  Corrigido um bug no qual quando a tela tremia, mostrava a parte inferior não desenhada do cenario
-<img src="https://github.com/user-attachments/assets/845b586f-d0ad-48bb-acd0-0ee296d6cd8b" width="800px">
-</ul>
-<HR>
-<BR>
-<li>Posição da camera no final da fase </li>
-<ul>
-  O Jogo não mostrava o resto do cenario, ou ele ficava cortado (Neste exemplo o cenario era um pouco maior para a direita).
-  <img src="https://github.com/user-attachments/assets/6ccee807-c159-490c-9348-67ee2ab64eed" width="800px"> 
+  <hr>
   <br>
   
-  Corrigido<br>
+  <li>Tela de Pause</li>
+  <ul>
+    <p>Animações e posições corrigidas para funcionarem corretamente.</p>
+    <img src="https://github.com/user-attachments/assets/4f76c096-c3dc-42b1-a916-9c9e3d48d80a" width="800px">
+  </ul>
+  <hr>
+  <br>
+</ul>
+
+<li>Legendas (DisconectedMelody)</li>
+<ul>
+  <p>Corrigido bug no qual alguns tipos específicos de legendas não apareciam:</p>
+
+  <p>Nas cutscenes de pegar item especial:</p>
+  <img src="https://github.com/user-attachments/assets/896b1c83-c346-4a43-a526-a7bbf4191ff5" width="800px">
+  
+  <br>
+  <p>Falas do CID:</p>
+  <img src="https://github.com/user-attachments/assets/6e7de5f8-3a33-4c65-997d-88a2b9a45cd2" width="800px">
+
+  <br><br>
+  <p>Legendas de uma linha em batalha com Boss:</p>
+  <img src="https://github.com/user-attachments/assets/40b2c3fb-daf3-40e8-b700-3cbbf7668a94" width="800px">
+</ul>
+<hr>
+<br>
+
+<li>Posição do Herói na Tela</li>
+<ul>
+  <p>Corrigido bug no qual a câmera não acompanhava o herói corretamente.</p>
+  <img src="https://github.com/user-attachments/assets/cc5cc108-dc83-4665-a724-7eacae03dec8" width="800px">
+</ul>
+<hr>
+<br>
+
+<li>"Shake" na Câmera ao Levar Dano</li>
+<ul>
+  <p>Corrigido bug onde, ao tremer a tela, aparecia a parte inferior não desenhada do cenário.</p>
+  <img src="https://github.com/user-attachments/assets/845b586f-d0ad-48bb-acd0-0ee296d6cd8b" width="800px">
+</ul>
+<hr>
+<br>
+
+<li>Posição da Câmera no Final da Fase</li>
+<ul>
+  <p>O jogo não mostrava o resto do cenário, ou ele ficava cortado. (Neste exemplo, o cenário era um pouco maior para a direita.)</p>
+  <img src="https://github.com/user-attachments/assets/6ccee807-c159-490c-9348-67ee2ab64eed" width="800px">
+  <br>
+  <p>Corrigido:</p>
   <img src="https://github.com/user-attachments/assets/f7727924-3c69-4dad-b91b-03b5ad2733b2" width="800px">
 </ul>
-<HR>
+<hr>
+
 <li>Posição do ScoreBoard (Ajustado para a nova posição de tela)</li>
 <ul>
-<img src="https://github.com/user-attachments/assets/f36400c9-2e92-4eda-b233-73cf3a5b384a" width="800px">
-<img src="https://github.com/user-attachments/assets/4da34dbd-8e3d-4afd-93cd-262f7dec6527" width="800px">
+  <img src="https://github.com/user-attachments/assets/f36400c9-2e92-4eda-b233-73cf3a5b384a" width="800px">
+  <img src="https://github.com/user-attachments/assets/4da34dbd-8e3d-4afd-93cd-262f7dec6527" width="800px">
 </ul>
-<HR>
+<hr>
+
 <li>LowLifeShader (Vinheta vermelha quando se está com pouca vida)</li>
 <ul>
-  Ajustado para cobrir toda a tela.
+  <p>Ajustado para cobrir toda a tela.</p>
   <img src="https://github.com/user-attachments/assets/8ac79a70-8d1c-4aa4-a48d-1b650605b992" width="800px">
 </ul>
 <hr>
 <br>
-<li>Bordas cinematograficas, Stage Intro e Stage Title (Corrigido a posição e animação)</li>
-<ul>
-<img src="https://github.com/user-attachments/assets/7ad41124-087d-4cd4-b6ef-c05c0ac67676" width="800px">
-</ul>
-<HR>
 
-<li>Lame Transition (Corrigido a area do efeito transição das fases)</li>
+<li>Bordas Cinematográficas, Intro da Fase e Título da Fase (Corrigido a posição e animação)</li>
 <ul>
-  Corrigido a renderização da transição de fase.
+  <img src="https://github.com/user-attachments/assets/7ad41124-087d-4cd4-b6ef-c05c0ac67676" width="800px">
+</ul>
+<hr>
+
+
+<li>Lame Transition (Área de efeito da transição de fase corrigida)</li>
+<ul>
+  <p>Corrigida a renderização da transição de fase.</p>
   <img src="https://github.com/user-attachments/assets/e1cdf144-de9d-48bc-bae8-ec2769cc26e1" width="800px">
 </ul>
 <hr>
 <br>
-<li>Parallax Texture Render loopX </li>
+
+<li>Parallax Texture Render Loop X</li>
 <ul>
-Corrigido a renderização do cenário "Parallax" do fundo das fases ao andar para a esquerda e direita.
-(No bug em questão, essas partes selecionadas não carregavam devidamente, sendo necessario uma reestruturação no LOOP para se adaptar a nova resolução)
-<img src="https://github.com/user-attachments/assets/7292d050-c8b8-4902-b3d9-850bbd4489a3" width="800px">
+  <p>Corrigida a renderização do cenário "Parallax" ao mover-se para a esquerda e direita.</p>
+  <p>(No bug original, certas partes selecionadas não carregavam devidamente, sendo necessário reestruturar o loop para se adaptar à nova resolução.)</p>
+  <img src="https://github.com/user-attachments/assets/7292d050-c8b8-4902-b3d9-850bbd4489a3" width="800px">
 </ul>
 <hr>
 <br>
-<li>Parallax Texture Render loopY 
-</li>
+
+<li>Parallax Texture Render Loop Y</li>
 <ul>
-Corrigido a renderização do cenário "Parallax" do fundo das fases ao subir e descer no eixo Y (Como na fase 3, onde se escalar até o topo)<br>
-<img src="https://github.com/user-attachments/assets/18b93f39-f845-47ca-adaf-5997704a27b4" width="800px">
+  <p>Corrigida a renderização do cenário "Parallax" ao mover-se no eixo Y, como na fase 3 ao escalar até o topo.</p>
+  <img src="https://github.com/user-attachments/assets/18b93f39-f845-47ca-adaf-5997704a27b4" width="800px">
 </ul>
 <hr>
 <br>
-<li>Shaders do Boss (Gorilize, tint, white etc) </li>
+
+<li>Shaders do Boss (Gorilize, Tint, White, etc.)</li>
 <ul>
-  Corrigido um bug no qual os bosses ficavam esticados quando entravam na segunda etapa, e não condizia com a area da sua Hitbox após passar para a segunda etapa de fight.
-<img src="https://github.com/user-attachments/assets/05c257de-4c15-4ac5-9003-e2413da82103" width="800px">
-<img src="https://github.com/user-attachments/assets/c363171b-b11b-48f5-8141-1fced5052bc0" width="800px">
+  <p>Corrigido um bug no qual os bosses ficavam esticados na segunda etapa, sem corresponder à área de sua hitbox após a transição de fase.</p>
+  <img src="https://github.com/user-attachments/assets/05c257de-4c15-4ac5-9003-e2413da82103" width="800px">
+  <img src="https://github.com/user-attachments/assets/c363171b-b11b-48f5-8141-1fced5052bc0" width="800px">
 </ul>
 <hr>
 <br>
-<li>Cutscenies (Foram Centralizadas)</li>
-<br>
-Antes ficavam a esquerda.
+
+<li>Cutscenes (Centralizadas)</li>
 <ul>
-<img src="https://github.com/user-attachments/assets/3efb0bad-35e4-4e75-ab30-ab734c5226a6" width="800px">
+  <p>Antes, as cutscenes apareciam à esquerda. Agora, foram centralizadas para melhor visualização.</p>
+  <img src="https://github.com/user-attachments/assets/3efb0bad-35e4-4e75-ab30-ab734c5226a6" width="800px">
 </ul>
 <hr>
 <br>
-<li>Tempestade Fase5 Ato3</li>
+
+<li>Tempestade - Fase 5, Ato 3</li>
 <ul>
-  A Tempestade aparecia cortada.
+  <p>A tempestade aparecia cortada.</p>
   <img src="https://github.com/user-attachments/assets/31bc0ddf-52bf-416d-882c-27218ca77850" width="800px">
-  <br>
-  Foi necessário modificar o código e também expandir as imagens da tempestade.
+  <p>Foi necessário modificar o código e expandir as imagens da tempestade.</p>
   <img src="https://github.com/user-attachments/assets/4ea430d2-5a29-4e34-90ab-47a371a36d77" width="800px">
 </ul>
 <hr>
 <br>
-<li>Posição do Boomerang no Menu </li>
-<ul>
-  (Corrigido a posição do Boomerang no Menu Pause)
-<img src="https://github.com/user-attachments/assets/378e1111-16a7-475c-9476-37ccfbe7d219" width="800px">
 
-<img src="https://github.com/user-attachments/assets/c103895c-31ae-48c9-ab77-fb2ac1366097" width="800px">
+<li>Posição do Bumerangue no Menu</li>
+<ul>
+  <p>Corrigida a posição do bumerangue no menu de pausa.</p>
+  <img src="https://github.com/user-attachments/assets/378e1111-16a7-475c-9476-37ccfbe7d219" width="800px">
+  <img src="https://github.com/user-attachments/assets/c103895c-31ae-48c9-ab77-fb2ac1366097" width="800px">
 </ul>
 <hr>
 <br>
+
 <h2 name = "arquivos">Edição de Imagens e Videos</h2>
 <li>Imagens do Menu</li>
 <ul>
