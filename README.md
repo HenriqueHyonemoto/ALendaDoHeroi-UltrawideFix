@@ -102,7 +102,13 @@ Legendas de uma Linha em Batalha com Boss
 <img src="https://github.com/user-attachments/assets/4da34dbd-8e3d-4afd-93cd-262f7dec6527" width="800px">
 </ul>
 <HR>
-<li>LowLifeShader (Para se aplicar a nova area)</li>
+<li>LowLifeShader (Vinheta vermelha quando se está com pouca vida)</li>
+<ul>
+  Ajustado para cobrir toda a tela.
+  <img src="https://github.com/user-attachments/assets/8ac79a70-8d1c-4aa4-a48d-1b650605b992" width="800px">
+</ul>
+<hr>
+<br>
 <li>Bordas cinematograficas, Stage Intro e Stage Title (Corrigido a posição e animação)</li>
 <ul>
 <img src="https://github.com/user-attachments/assets/7ad41124-087d-4cd4-b6ef-c05c0ac67676" width="800px">
@@ -145,7 +151,14 @@ Antes ficavam a esquerda.
 <ul>
 <img src="https://github.com/user-attachments/assets/3efb0bad-35e4-4e75-ab30-ab734c5226a6" width="800px">
 </ul>
-<li>Tempestade Fase5 Ato3 (Corrigido a area em que a Tempestade aparece na tela)</li>
+<li>Tempestade Fase5 Ato3</li>
+<ul>
+  A Tempestade aparecia cortada.
+  <img src="https://github.com/user-attachments/assets/31bc0ddf-52bf-416d-882c-27218ca77850" width="800px">
+  <br>
+  Foi necessário modificar o código e também expandir as imagens da tempestade.
+  <img src="https://github.com/user-attachments/assets/4ea430d2-5a29-4e34-90ab-47a371a36d77" width="800px">
+<ul>
 <li>Posição do Boomerang no Menu (Corrigido a posição do slot em que o Boomerang ocupa no Menu)</li>
 
 <h2>Edições de Sprites e Videos</h2>
