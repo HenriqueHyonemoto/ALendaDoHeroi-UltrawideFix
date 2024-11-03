@@ -1,8 +1,8 @@
 # ALendaDoHeroi-UltrawideFix
 
-ALendaDoHeroi-UltrawideFix é uma modificação feita para fazer com que o jogo possa renderizar em Ultrawide, 21:9 (2560x1080)
+ALendaDoHeroi-UltrawideFix é uma modificação feita para fazer com que o jogo possa renderizar em Ultrawide, 21:9 (Testado em 2560x1080).
 
-O Mod ainda esta em desenvolvimento, caso encontre erros como recursos decentralizados ou faltando, por favor me informe 😉
+O Mod ainda esta em desenvolvimento, caso encontre bugs, por favor me informe!
 
 # Demonstrações (Fase de Teste)
 <a href="https://www.youtube.com/watch?v=qPiQTyTO1xE&list=PL0jT61l8O_LYy3_dyUpT_iRXWayvFjh2D&index=2"><img src="https://github.com/user-attachments/assets/739ace0f-4d3f-4d22-aa90-017c058b2986"></a>
