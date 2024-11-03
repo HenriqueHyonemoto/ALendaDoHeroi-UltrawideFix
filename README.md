@@ -72,20 +72,18 @@ Após mudar a renderização do jogo de 16:9 para 21:9, foi necessario fazer aju
 <li>Content/Objects/Videos/margem_final.xnb</li>
 <li>Content/Objects/Videos/margem_princesa.xnb</li>
 </ul>
-<li>Fase 5: Ventaria</li>
+<li>Fase 5: Ventaria (Corrigido a renderização da Ventaria)</li>
 <ul>
   <li>Content/Objects/tornado_bg.xnb</li>
   <li>Content/Objects/tornado_front.xnb</li>
 </ul>
-<li>Fase 6: Aurora </li>
+<li>Fase 6: Aurora (Corrigido a renderização das Auroras Boreais)</li>
 <ul>
   <li>Content/Levels/6/aurora/1.xnb</li>
   <li>Content/Levels/6/aurora/2.xnb</li>
   <li>Content/Levels/6/aurora/3.xnb</li>
 </ul>
 </ul>
-
-
 
 <ul>
 
