@@ -16,7 +16,7 @@ Este mod foi feito com base na modificação do executavel do jogo na versão 5.
 <li>Acesse a sua pasta da steam e localize "steamapps" (padrão: C:\Program Files\Steam\SteamApps\)</li>
 <li>Abra o arquivo "appmanifest_389170.acf" com o bloco de notas</li>
 <UL>
-  <LI>Verifique se o nome "Songs for a Hero consta no arquivo"</LI>
+  <LI>Verifique se o nome "Songs for a Hero" consta no arquivo</LI>
   <Li>Mude o valor de "StateFlags"	para "4"</Li>
   <img src="https://github.com/user-attachments/assets/4bc327ed-5680-4cd3-8114-1279cd37d86b" width="800px">
 </UL>
@@ -29,6 +29,7 @@ Este mod foi feito com base na modificação do executavel do jogo na versão 5.
   <Li>Procure pelo jogo -> Clique com o botão direito -> Gerenciar -> Explorar Arquivos locais 
   <li>Faça <a href="">download</a> desse repositorio, e copie todos os arquivos pra dentro deste diretório (Para instalar o mod)</li>
     <img src="https://github.com/user-attachments/assets/d465ca2c-1006-4641-9c26-b0387abe3999" width="600px">
+  <li>Feito isso, você pode criar um atalho clicando com o botão direito em "DumaLegend" > Enviar Para -> Area de Trabalho</li>
 </Li>
 </UL>
 </ul>
