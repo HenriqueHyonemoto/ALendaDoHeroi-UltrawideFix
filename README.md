@@ -30,8 +30,9 @@ Essa intro foi extendida utilizando o proprio código, sem a necessidade de aume
 <img src="https://github.com/HenriqueHyonemoto/UltrawideMOD-ALDH/assets/128445385/313ee23d-55cd-4747-b5b1-ea5538b3c794" width="800px">
 
 </ul>
-<li>Tela de Loading (Posição dos elementos para nova area)</li>
+<li>Tela de Loading </li>
 <ul>
+  Posição dos elementos para nova area (Texto Centralizado, Heroi mais a direita).
   <img src="https://github.com/user-attachments/assets/ef01c7da-8e0a-4546-80f2-1c6db827a1f8" width="800px">
 </ul>
 <li>Menus</li>
@@ -43,12 +44,14 @@ Essa intro foi extendida utilizando o proprio código, sem a necessidade de aume
     <img src="https://github.com/user-attachments/assets/498d050c-e99d-45c0-b703-0f95df03c12a" width="800px">
     <img src="https://github.com/user-attachments/assets/87f69e9d-2510-46f9-ae02-fc1b4dd4e298" width="800px">
   </ul>
-<li>Tela de Pause (Animações e posições não funcionavam corretamente))</li>
+<li>Tela de Pause </li>
 <ul>
+Animações e posições não funcionavam corretamente.
 <img src="https://github.com/user-attachments/assets/4f76c096-c3dc-42b1-a916-9c9e3d48d80a" width="800px">
 </ul>
-<li>Legendas - DisconectedMelody (Corrigido bug no qual alguns tipos especificos de legendas não apareciam)</li>
-
+<li>Legendas (DisconectedMelody) </li>
+<br>
+(Corrigido bug no qual alguns tipos especificos de legendas não apareciam) 
 <ul>
 <br>
 Nas Cutscenies de pegar item Especial
@@ -64,14 +67,17 @@ Legendas de uma Linha em Batalha com Boss
 
 </ul>
 
-<li>Posição do Herói na Tela (Corrigido bug no qual a Camera não acompanhava o herói corretamente)</li>
+<li>Posição do Herói na Tela </li>
+<br>
+(Corrigido bug no qual a Camera não acompanhava o herói corretamente)
 <ul>
-  
 <img src="https://github.com/user-attachments/assets/cc5cc108-dc83-4665-a724-7eacae03dec8" width="800px">
 
 </ul>
 
-<li>"Shake" na camera ao levar dano (Corrigido um bug no qual quando a tela tremia, mostrava a parte inferior não desenhada do cenario)</li>
+<li>"Shake" na camera ao levar dano</li>
+<br>
+Corrigido um bug no qual quando a tela tremia, mostrava a parte inferior não desenhada do cenario
 <ul>
 <img src="https://github.com/user-attachments/assets/845b586f-d0ad-48bb-acd0-0ee296d6cd8b" width="800px">
 </ul>
@@ -93,16 +99,29 @@ Legendas de uma Linha em Batalha com Boss
 </ul>
 
 <li>LowLifeShader (Para se aplicar a nova area)</li>
-<li>Bordas cinematograficas (Para se aplicar a nova area)</li>
-<li>Stage Intro (Corrigido a posição)</li>
-<li>Stage Title (Corrigido a posição)</li>
+<li>Bordas cinematograficas, Stage Intro e Stage Title(Corrigido as posições)</li>
+
+<ul>
+<img src="https://github.com/user-attachments/assets/7ad41124-087d-4cd4-b6ef-c05c0ac67676" width="800px">
+</ul>
+
 <li>Lame Transition (Corrigido a area do efeito transição das fases)</li>
 <li>Parallax Texture Render loopX (Corrigido a renderização do cenário "Parallax" do fundo das fases ao andar no eixo X)</li>
 <li>Parallax Texture Render loopY (Corrigido a renderização do cenário "Parallax" do fundo das fases ao andar no eixo Y (Como na fase 3, onde se pode cair rapidamente))</li>
 
+<li>Shaders do Boss (Gorilize, tint, white etc) </li>
+Corrigido um bug no qual os bosses ficavam esticados quando entravam na segunda etapa, e não condizia com a area da sua Hitbox após passar para a segunda etapa de fight.
+<ul>
+<img src="https://github.com/user-attachments/assets/05c257de-4c15-4ac5-9003-e2413da82103" width="800px">
+<img src="https://github.com/user-attachments/assets/c363171b-b11b-48f5-8141-1fced5052bc0" width="800px">
+</ul>
 
-<li>Shaders do Boss (Gorilize, tint, white etc (Corrigido um bug no qual o boss ficava esticado, e não condizia com a area da sua Hitbox após passar para a segunda etapa de fight)</li>
 <li>Cutscenies (Foram Centralizadas)</li>
+<br>
+Antes ficavam a esquerda.
+<ul>
+<img src="https://github.com/user-attachments/assets/3efb0bad-35e4-4e75-ab30-ab734c5226a6" width="800px">
+</ul>
 <li>Tempestade Fase5 Ato3 (Corrigido a area em que a Tempestade aparece na tela)</li>
 <li>Posição do Boomerang no Menu (Corrigido a posição do slot em que o Boomerang ocupa no Menu)</li>
 
