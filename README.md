@@ -11,19 +11,48 @@ O Mod ainda esta em desenvolvimento, caso encontre erros como recursos decentral
 Após mudar a renderização do jogo de 16:9 para 21:9, foi necessario fazer ajustes de posição em icones, menus, desenhar a area "extra" em certos sprites, e corrigir certos bugs.
 <ul>
 <h2>Código</h2>
-<li>Lógica de renderização: 16:9 para 21:9</li>
-<li>Posição das Logos durante a Intro (Posição era incorreta)</li>
+<li>Posição das Logos durante a Intro (Foram Centralizadas)</li>
+  <ul>
+    <p float="left">
+  <img src="https://github.com/user-attachments/assets/469d2d78-2b8b-41d5-a642-c85a23e8dd00" width="310px">
+  <img src="https://github.com/user-attachments/assets/53928dde-f34a-42b3-99bd-38300731e474" width="310px">
+  <img src="https://github.com/user-attachments/assets/bfec68e2-1fbc-44d5-abff-bab09d3ad084" width="310px">
+</p>
+  
+
+  
+<br>
+
+</ul>
+
+
   
 <li>Expandido a area da intro do inicio (Para se adequar a nova resolução)</li>  
+<br>
+<ul>
+  
+Essa intro foi extendida utilizando o proprio código, sem a necessidade de aumentar editando o video.
+
+<img src="https://github.com/HenriqueHyonemoto/UltrawideMOD-ALDH/assets/128445385/313ee23d-55cd-4747-b5b1-ea5538b3c794" width="800px">
+
+</ul>
 <li>Tela de Loading (Posição dos elementos para nova area)</li>
-<li>Tela de Pause (Animações e posições não funcionavam corretamente))</li>
+<ul>
+  <img src="https://github.com/user-attachments/assets/ef01c7da-8e0a-4546-80f2-1c6db827a1f8" width="800px">
+</ul>
 <li>Menus</li>
   <ul>
     <li>Posição dos itens do Menu, Submenu e Armario (Posição dos itens, opções, cursor foram corrigidas)</li>
     <li>Menu - Opções</li>
     <li>Opções - Sair</li>
     <li>Delete - Save</li>
+    <img src="https://github.com/user-attachments/assets/498d050c-e99d-45c0-b703-0f95df03c12a" width="800px">
+    <img src="https://github.com/user-attachments/assets/87f69e9d-2510-46f9-ae02-fc1b4dd4e298" width="800px">
   </ul>
+<li>Tela de Pause (Animações e posições não funcionavam corretamente))</li>
+<ul>
+<img src="https://github.com/user-attachments/assets/4f76c096-c3dc-42b1-a916-9c9e3d48d80a" width="800px">
+</ul>
 <li>Legendas - DisconectedMelody (Corrigido bug no qual alguns tipos especificos de legendas não apareciam)</li>
 <li>Posição do Herói na Tela (Corrigido bug no qual a Camera não acompanhava o herói corretamente)</li>
 <li>Posição do ScoreBoard (Ajustado para a nova posição de tela)</li> 
@@ -90,9 +119,7 @@ Após mudar a renderização do jogo de 16:9 para 21:9, foi necessario fazer aju
 
 <h2>Intro</h2>
 
-Essa intro foi extendida utilizando o proprio código, sem a necessidade de aumentar editando o video.
 
-![image](https://github.com/HenriqueHyonemoto/UltrawideMOD-ALDH/assets/128445385/313ee23d-55cd-4747-b5b1-ea5538b3c794)
 
 <h2>Menus</h2>
 
