@@ -7,12 +7,24 @@ O Mod ainda esta em desenvolvimento, caso encontre erros como recursos decentral
 # Demonstrações (Fase de Teste)
 <a href="https://www.youtube.com/watch?v=qPiQTyTO1xE&list=PL0jT61l8O_LYy3_dyUpT_iRXWayvFjh2D&index=2"><img src="https://github.com/user-attachments/assets/739ace0f-4d3f-4d22-aa90-017c058b2986"></a>
 
-<h1> Como utilizar o Mod?</h1>
+<!--TOC -->
+<H1>índice</H1>
+
+- [Instalação](#utilizar)
+  - [Desativando Updates](#desativa-update)
+  - [Instalando o Mod](#instalar)
+- [O Que foi Modificado?](#modificado)
+  - [No Código](#código)
+  - [Nos Arquivos do Jogo](#arquivos)
+
+<!--/TOC -->
+
+<h1 name="utilizar">Como utilizar o Mod?</h1>
 
 Este mod foi feito com base na modificação do executavel do jogo na versão 5.1.1dx. isso significa que se você atualizar seu jogo, esse executavel vai ser substituido, e o mod deixará de funcionar, então precisamos fazer com que a steam não atualize seu jogo.
 
-<ul>
-<li>Saia da sua Steam (Steam -> Sair)</li>
+<ul name="desativa-update">
+<li >Saia da sua Steam (Steam -> Sair)</li>
 <li>Acesse a sua pasta da steam e localize "steamapps" (padrão: C:\Program Files\Steam\SteamApps\)</li>
 <li>Abra o arquivo "appmanifest_389170.acf" com o bloco de notas</li>
 <UL>
@@ -24,7 +36,7 @@ Este mod foi feito com base na modificação do executavel do jogo na versão 5.
 <li>Agora sempre que for executar o jogo, abra através do seu executavél na pasta que que está instalado</li>
   <br>
       Se você não sabe onde esta localizado siga estes passos:
-  <UL>
+  <UL name="instalar">
   <LI>Abra sua biblioteca Steam</LI>
   <Li>Procure pelo jogo -> Clique com o botão direito -> Gerenciar -> Explorar Arquivos locais 
   <li>Faça <a href="">download</a> desse repositorio, e copie todos os arquivos pra dentro deste diretório (Para instalar o mod)</li>
@@ -34,8 +46,8 @@ Este mod foi feito com base na modificação do executavel do jogo na versão 5.
 </UL>
 </ul>
 
-<h1> O que foi modificado? </h1>
-Após mudar a renderização do jogo de 16:9 para 21:9, foi necessario fazer ajustes de posição em icones, menus, desenhar a area "extra" em certos sprites, e corrigir certos bugs.
+<h1 name = "modificado"> O que foi modificado? </h1>
+Para mudar a renderização do jogo de 16:9 para 21:9, foi necessario alterar valores e funções dentro do código do executavél, também necessario fazer ajustes de posição em icones, menus, desenhar a area "extra" em certos sprites, e corrigir varios bugs que a mudança causou.
 <ul>
 <h2>Código</h2>
 <li>Posição das Logos durante a Intro (Foram Centralizadas)</li>
@@ -200,8 +212,8 @@ Antes ficavam a esquerda.
 </ul>
 <hr>
 <br>
-<h2>Edição de Imagens e Videos</h2>
-<li>Imagens do Menu </li>
+<h2 name = "arquivos">Edição de Imagens e Videos</h2>
+<li>Imagens do Menu</li>
 <ul>
   <li>(Content/Menu/bg.xnb)</li>
   
