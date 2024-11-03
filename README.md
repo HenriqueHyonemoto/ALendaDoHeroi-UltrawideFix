@@ -286,7 +286,7 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
 <li>Fase 5: Ventaria (Corrigido a renderização da Ventaria)</li>
 <ul>
   <li>Content/Objects/tornado_bg.xnb</li>
-  <img src="https://github.com/user-attachments/assets/af4acd80-a2be-412d-9a10-e9e94257ae5f" width="200px"> ->
+  <img src="https://github.com/user-attachments/assets/af4acd80-a2be-412d-9a10-e9e94257ae5f" width="300px"> ->
   <img src="https://github.com/user-attachments/assets/324fa882-ce66-4517-b2f2-8bc4629b4045" width="500px">
   <li>Content/Objects/tornado_front.xnb</li>
   <img src="https://github.com/user-attachments/assets/e44012d7-e2c8-4819-acd8-db485d506381" width="300px"> ->
