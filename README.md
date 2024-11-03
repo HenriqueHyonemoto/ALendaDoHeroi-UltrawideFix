@@ -8,35 +8,36 @@ O Mod ainda esta em desenvolvimento, caso encontre erros como recursos decentral
 <a href="https://www.youtube.com/watch?v=qPiQTyTO1xE&list=PL0jT61l8O_LYy3_dyUpT_iRXWayvFjh2D&index=2"><img src="https://github.com/user-attachments/assets/739ace0f-4d3f-4d22-aa90-017c058b2986"></a>
 
 <h1> O que foi modificado? </h1>
+Após mudar a renderização do jogo de 16:9 para 21:9, foi necessario fazer ajustes de posição em icones, menus, desenhar a area "extra" em certos sprites, e corrigir certos bugs.
 <ul>
 <h2>Código</h2>
 <li>Lógica de renderização: 19:9 para 21:9</li>
-<li>Posição das Logos durante a Intro</li>
-<li>Tela de Loading</li>
-<li>Tela de Pause</li>
+<li>Posição das Logos durante a Intro (Posição era incorreta)</li>
+<li>Expandido a area da intro do inicio (Para se adequar a nova resolução)</li>  
+<li>Tela de Loading (Posição dos elementos para nova area)</li>
+<li>Tela de Pause (Animações e posições não funcionavam corretamente))</li>
 <li>Menus</li>
   <ul>
-    <li>Posição dos itens do Menu, Submenu e Armario</li>
+    <li>Posição dos itens do Menu, Submenu e Armario (Posição dos itens, opções, cursor foram corrigidas)</li>
     <li>Menu - Opções</li>
     <li>Opções - Sair</li>
     <li>Delete - Save</li>
   </ul>
-<li>Posição das Legendas</li>
-
-<li>Posição do Herói na Tela</li>
-<li>Posição do ScoreBoard</li> 
-<li>Animações dos icones quando o jogo é pausado.</li>
+<li>Legendas - DisconectedMelody (Corrigido bug no qual alguns tipos especificos de legendas não apareciam)</li>
+<li>Posição do Herói na Tela (Corrigido bug no qual a Camera não acompanhava o herói corretamente)</li>
+<li>Posição do ScoreBoard (Ajustado para a nova posição de tela)</li> 
+<li>Animações dos icones quando o jogo é pausado. (Ajustado para a nova posição de tela)</li>
 <li>LowLifeShader (Para se aplicar a nova area)</li>
-<li>Expandido a area da intro do inicio</li>
 <li>Bordas cinematograficas (Para se aplicar a nova area)</li>
-<li>Stage Title</li>
-<li>Stage Intro</li>
-<li>Lame Transition</li>
-<li>Parallax Texture Render (loopY)</li>
-<li>"Shake"" na camera ao levar dano</li>
-<li>Shaders do Boss (Gorilize, tint, white etc)</li>
-<li>Tempestade Fase5 Ato3</li>
-<li>Posição do Boomerang no Menu</li>
+<li>Stage Intro (Corrigido a posição)</li>
+<li>Stage Title (Corrigido a posição)</li>
+<li>Lame Transition (Corrigido a area do efeito transição das fases)</li>
+<li>Parallax Texture Render (loopY, Corrigido a renderização do cenário "Parallax" do fundo das fases)</li>
+<li>"Shake" na camera ao levar dano (Corrigido um bug no qual quando a tela tremia, mostrava uma parte não desenhada do cenario)</li>
+<li>Shaders do Boss (Gorilize, tint, white etc (Corrigido um bug no qual o boss ficava esticado, e não condizia com a area da sua Hitbox após passar para a segunda etapa de fight)</li>
+<li>Cutscenies (Foram Centralizadas)</li>l
+<li>Tempestade Fase5 Ato3 (Corrigido a area em que a Tempestade aparece na tela)</li>
+<li>Posição do Boomerang no Menu (Corrigido a posição do slot em que o Boomerang ocupa no Menu)</li>
 
 <h2>Edições de Sprites e Videos</h2>
 <li>Imagens do Menu </li>
@@ -44,10 +45,20 @@ O Mod ainda esta em desenvolvimento, caso encontre erros como recursos decentral
   <li>(Content/Menu/bg.xnb)</li>
   <li>(Content/Menu/bgmainMenu.xnb)</li>
   <li>(Content/Menu/bgsubMenu.xnb)</li>
+  <li>(Content/Menu/Save/saves_bg.xnb)</li>
 </ul>
 <li>Bordas Cinematograficas do inicio</li>
 <ul>
   <li>(Content/cinema.xnb)</li>
+</ul>
+<li>Armario</li>
+<ul>
+  <li>(Content/Menu/Armario/armario_bg.xnb)</li>
+  <li>(Content/Menu/Armario/armario_bgEN.xnb)</li>
+</ul>
+<li>Lame Transition</li>
+<ul>
+  <li>(Content/lame_transition.xnb)</li>
 </ul>
 <li>Cutscenes InicioDeTudo (‎Content/Objects/)</li>
 <ul>
@@ -76,7 +87,7 @@ O Mod ainda esta em desenvolvimento, caso encontre erros como recursos decentral
 
 
 <ul>
-Após mudar a renderização do jogo de 16:9 para 21:9, foi necessario fazer ajustes de posição em icones, menus, e desenhar a area "extra" em certos sprites, ou video.
+
 
 <h2>Intro</h2>
 
