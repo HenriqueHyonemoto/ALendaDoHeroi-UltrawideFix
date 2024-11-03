@@ -61,12 +61,12 @@ Após mudar a renderização do jogo de 16:9 para 21:9, foi necessario fazer aju
 <ul>
   <li>(Content/lame_transition.xnb)</li>
 </ul>
-<li>Cutscenes InicioDeTudo (‎Content/Objects/)</li>
+<li>Cutscenes InicioDeTudo</li>
 <ul>
   <li>Content/Objects/logo.xnb</li>
   <li>Content/Objects/logoEN.xnb</li>
 </ul>
-<li>Cutscenes da Princesa (Content/Menu/Content/Objects/Videos/)</li>
+<li>Cutscenes da Princesa</li>
 <ul>
 <li>Content/Objects/Videos/margem_fase9.xnb</li>
 <li>Content/Objects/Videos/margem_final.xnb</li>
@@ -77,7 +77,7 @@ Após mudar a renderização do jogo de 16:9 para 21:9, foi necessario fazer aju
   <li>Content/Objects/tornado_bg.xnb</li>
   <li>Content/Objects/tornado_front.xnb</li>
 </ul>
-<li>Fase 6: Aurora (Content/Levels/6/aurora/)</li>
+<li>Fase 6: Aurora </li>
 <ul>
   <li>Content/Levels/6/aurora/1.xnb</li>
   <li>Content/Levels/6/aurora/2.xnb</li>
