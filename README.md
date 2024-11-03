@@ -18,15 +18,9 @@ Após mudar a renderização do jogo de 16:9 para 21:9, foi necessario fazer aju
   <img src="https://github.com/user-attachments/assets/53928dde-f34a-42b3-99bd-38300731e474" width="310px">
   <img src="https://github.com/user-attachments/assets/bfec68e2-1fbc-44d5-abff-bab09d3ad084" width="310px">
 </p>
-  
-
-  
-<br>
 
 </ul>
 
-
-  
 <li>Expandido a area da intro do inicio (Para se adequar a nova resolução)</li>  
 <br>
 <ul>
@@ -54,16 +48,59 @@ Essa intro foi extendida utilizando o proprio código, sem a necessidade de aume
 <img src="https://github.com/user-attachments/assets/4f76c096-c3dc-42b1-a916-9c9e3d48d80a" width="800px">
 </ul>
 <li>Legendas - DisconectedMelody (Corrigido bug no qual alguns tipos especificos de legendas não apareciam)</li>
+
+<ul>
+<br>
+Nas Cutscenies de pegar item Especial
+<img src="https://github.com/user-attachments/assets/896b1c83-c346-4a43-a526-a7bbf4191ff5" width="800px">
+  
+<br>
+Falas do CID<br>
+<img src="https://github.com/user-attachments/assets/6e7de5f8-3a33-4c65-997d-88a2b9a45cd2" width="800px">
+
+<br>
+Legendas de uma Linha em Batalha com Boss
+<img src="https://github.com/user-attachments/assets/40b2c3fb-daf3-40e8-b700-3cbbf7668a94" width="800px">
+
+</ul>
+
 <li>Posição do Herói na Tela (Corrigido bug no qual a Camera não acompanhava o herói corretamente)</li>
-<li>Posição do ScoreBoard (Ajustado para a nova posição de tela)</li> 
-<li>Animações dos icones quando o jogo é pausado. (Ajustado para a nova posição de tela)</li>
+<ul>
+  
+<img src="https://github.com/user-attachments/assets/cc5cc108-dc83-4665-a724-7eacae03dec8" width="800px">
+
+</ul>
+
+<li>"Shake" na camera ao levar dano (Corrigido um bug no qual quando a tela tremia, mostrava a parte inferior não desenhada do cenario)</li>
+<ul>
+<img src="https://github.com/user-attachments/assets/845b586f-d0ad-48bb-acd0-0ee296d6cd8b" width="800px">
+</ul>
+
+<li>Posição da camera no final da fase </li>
+<ul>
+  O Jogo não mostrava o resto do cenario, ou ele ficava cortado (Neste exemplo o cenario era um pouco maior para a direita).
+  <img src="https://github.com/user-attachments/assets/6ccee807-c159-490c-9348-67ee2ab64eed" width="800px"> 
+  <br>
+  
+  Corrigido<br>
+  <img src="https://github.com/user-attachments/assets/f7727924-3c69-4dad-b91b-03b5ad2733b2" width="800px">
+</ul>
+
+<li>Posição do ScoreBoard (Ajustado para a nova posição de tela)</li>
+<ul>
+<img src="https://github.com/user-attachments/assets/f36400c9-2e92-4eda-b233-73cf3a5b384a" width="800px">
+<img src="https://github.com/user-attachments/assets/4da34dbd-8e3d-4afd-93cd-262f7dec6527" width="800px">
+</ul>
+
 <li>LowLifeShader (Para se aplicar a nova area)</li>
 <li>Bordas cinematograficas (Para se aplicar a nova area)</li>
 <li>Stage Intro (Corrigido a posição)</li>
 <li>Stage Title (Corrigido a posição)</li>
 <li>Lame Transition (Corrigido a area do efeito transição das fases)</li>
-<li>Parallax Texture Render (loopY, Corrigido a renderização do cenário "Parallax" do fundo das fases)</li>
-<li>"Shake" na camera ao levar dano (Corrigido um bug no qual quando a tela tremia, mostrava uma parte não desenhada do cenario)</li>
+<li>Parallax Texture Render loopX (Corrigido a renderização do cenário "Parallax" do fundo das fases ao andar no eixo X)</li>
+<li>Parallax Texture Render loopY (Corrigido a renderização do cenário "Parallax" do fundo das fases ao andar no eixo Y (Como na fase 3, onde se pode cair rapidamente))</li>
+
+
 <li>Shaders do Boss (Gorilize, tint, white etc (Corrigido um bug no qual o boss ficava esticado, e não condizia com a area da sua Hitbox após passar para a segunda etapa de fight)</li>
 <li>Cutscenies (Foram Centralizadas)</li>
 <li>Tempestade Fase5 Ato3 (Corrigido a area em que a Tempestade aparece na tela)</li>
