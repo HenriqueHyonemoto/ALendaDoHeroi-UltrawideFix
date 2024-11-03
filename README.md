@@ -121,7 +121,7 @@ Corrigido a renderização do cenário "Parallax" do fundo das fases ao andar pa
 <li>Parallax Texture Render loopY 
 </li>
 <ul>
-Corrigido a renderização do cenário "Parallax" do fundo das fases ao subir e descer no eixo Y (Como na fase 3, onde se escalar até o topo)
+Corrigido a renderização do cenário "Parallax" do fundo das fases ao subir e descer no eixo Y (Como na fase 3, onde se escalar até o topo)<br>
 <img src="https://github.com/user-attachments/assets/18b93f39-f845-47ca-adaf-5997704a27b4" width="800px">
 </ul>
 <hr>
