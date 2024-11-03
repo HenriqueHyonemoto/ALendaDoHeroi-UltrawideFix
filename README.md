@@ -6,7 +6,7 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
 
 # Demonstrações (Fase de Teste)
 <a href="https://www.youtube.com/watch?v=qPiQTyTO1xE&list=PL0jT61l8O_LYy3_dyUpT_iRXWayvFjh2D&index=2">
-  <img src="https://github.com/user-attachments/assets/739ace0f-4d3f-4d22-aa90-017c058b2986">
+  <img src="https://github.com/user-attachments/assets/79912903-af7d-421e-98db-776309e4a2d3" width="1000px">
 </a>
 
 <!-- TOC -->
