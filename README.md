@@ -230,7 +230,7 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
 <ul>
   <li>(Content/Menu/bg.xnb)</li>
   <img src="https://github.com/user-attachments/assets/c1793d85-92f6-4743-8fe4-cc4e4f87c949" width="328px">  ->
-  <img src="https://github.com/user-attachments/assets/647e9324-6734-4350-a823-10d0a92dec0c" width="435px">
+  <img src="https://github.com/user-attachments/assets/647e9324-6734-4350-a823-10d0a92dec0c" width="437px">
   <li>(Content/Menu/bgmainMenu.xnb)</li>
   <img src="https://github.com/user-attachments/assets/2261cebc-8c93-41c5-a96e-80c8b979d345" width="391px"> ->
   <img src="https://github.com/user-attachments/assets/7cdfd3ef-5d9a-42e9-a5f6-3f8393075451" width="521px">
