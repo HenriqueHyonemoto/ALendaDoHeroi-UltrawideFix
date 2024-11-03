@@ -27,6 +27,7 @@ Este mod foi feito com base na modificação do executavel do jogo na versão 5.
   <UL>
   <LI>Abra sua biblioteca Steam</LI>
   <Li>Procure pelo jogo -> Clique com o botão direito -> Gerenciar -> Explorar Arquivos locais 
+  <li>Faça <a href="">download</a> desse repositorio, e copie todos os arquivos pra dentro deste diretório (Para instalar o mod)</li>
     <img src="https://github.com/user-attachments/assets/d465ca2c-1006-4641-9c26-b0387abe3999" width="600px">
 </Li>
 </UL>
