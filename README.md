@@ -56,9 +56,9 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
   <li>Posição das Logos durante a Intro (Centralizadas)</li>
   <ul>
     <p style="float:left;">
-      <img src="https://github.com/user-attachments/assets/469d2d78-2b8b-41d5-a642-c85a23e8dd00" width="310px">
-      <img src="https://github.com/user-attachments/assets/53928dde-f34a-42b3-99bd-38300731e474" width="310px">
-      <img src="https://github.com/user-attachments/assets/bfec68e2-1fbc-44d5-abff-bab09d3ad084" width="310px">
+      <img src="https://github.com/user-attachments/assets/469d2d78-2b8b-41d5-a642-c85a23e8dd00" width="300px">
+      <img src="https://github.com/user-attachments/assets/53928dde-f34a-42b3-99bd-38300731e474" width="300px">
+      <img src="https://github.com/user-attachments/assets/bfec68e2-1fbc-44d5-abff-bab09d3ad084" width="300px">
     </p>
   </ul>
   <hr>
