@@ -11,8 +11,9 @@ O Mod ainda esta em desenvolvimento, caso encontre erros como recursos decentral
 Após mudar a renderização do jogo de 16:9 para 21:9, foi necessario fazer ajustes de posição em icones, menus, desenhar a area "extra" em certos sprites, e corrigir certos bugs.
 <ul>
 <h2>Código</h2>
-<li>Lógica de renderização: 19:9 para 21:9</li>
+<li>Lógica de renderização: 16:9 para 21:9</li>
 <li>Posição das Logos durante a Intro (Posição era incorreta)</li>
+  
 <li>Expandido a area da intro do inicio (Para se adequar a nova resolução)</li>  
 <li>Tela de Loading (Posição dos elementos para nova area)</li>
 <li>Tela de Pause (Animações e posições não funcionavam corretamente))</li>
