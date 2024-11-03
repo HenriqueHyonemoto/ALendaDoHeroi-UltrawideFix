@@ -7,6 +7,15 @@ O Mod ainda esta em desenvolvimento, caso encontre erros como recursos decentral
 # Demonstrações (Fase de Teste)
 <a href="https://www.youtube.com/watch?v=qPiQTyTO1xE&list=PL0jT61l8O_LYy3_dyUpT_iRXWayvFjh2D&index=2"><img src="https://github.com/user-attachments/assets/739ace0f-4d3f-4d22-aa90-017c058b2986"></a>
 
+<h1> Como utilizar o Mod?</h1>
+
+Este mod foi feito com base na modificação do executavel do jogo na versão 5.1.1dx. isso significa que se você atualizar seu jogo, esse executavel vai ser substituido, e o mod deixará de funcionar, então precisamos fazer com que a steam não atualize seu jogo.
+
+<ul>
+<li>Saia da sua Steam (Steam -> Sair)</li>
+  
+</ul>
+
 <h1> O que foi modificado? </h1>
 Após mudar a renderização do jogo de 16:9 para 21:9, foi necessario fazer ajustes de posição em icones, menus, desenhar a area "extra" em certos sprites, e corrigir certos bugs.
 <ul>
