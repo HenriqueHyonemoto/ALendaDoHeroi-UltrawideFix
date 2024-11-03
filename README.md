@@ -18,42 +18,45 @@ Após mudar a renderização do jogo de 16:9 para 21:9, foi necessario fazer aju
   <img src="https://github.com/user-attachments/assets/53928dde-f34a-42b3-99bd-38300731e474" width="310px">
   <img src="https://github.com/user-attachments/assets/bfec68e2-1fbc-44d5-abff-bab09d3ad084" width="310px">
 </p>
-
 </ul>
-
+<HR>
 <li>Expandido a area da intro do inicio (Para se adequar a nova resolução)</li>  
-<br>
 <ul>
-  
 Essa intro foi extendida utilizando o proprio código, sem a necessidade de aumentar editando o video.
 
 <img src="https://github.com/HenriqueHyonemoto/UltrawideMOD-ALDH/assets/128445385/313ee23d-55cd-4747-b5b1-ea5538b3c794" width="800px">
 
 </ul>
+<HR>
+<br>
 <li>Tela de Loading </li>
 <ul>
   Posição dos elementos para nova area (Texto Centralizado, Heroi mais a direita).
   <img src="https://github.com/user-attachments/assets/ef01c7da-8e0a-4546-80f2-1c6db827a1f8" width="800px">
 </ul>
+<HR>
+<br>
 <li>Menus</li>
   <ul>
-    <li>Posição dos itens do Menu, Submenu e Armario (Posição dos itens, opções, cursor foram corrigidas)</li>
-    <li>Menu - Opções</li>
-    <li>Opções - Sair</li>
-    <li>Delete - Save</li>
+    <li>Posição dos itens do Menu, Submenu e Armario</li>
+    (Posição dos itens, opções, cursor foram corrigidas)
     <img src="https://github.com/user-attachments/assets/498d050c-e99d-45c0-b703-0f95df03c12a" width="800px">
     <img src="https://github.com/user-attachments/assets/87f69e9d-2510-46f9-ae02-fc1b4dd4e298" width="800px">
   </ul>
+  <HR>
+  <BR>
 <li>Tela de Pause </li>
 <ul>
 Animações e posições não funcionavam corretamente.
 <img src="https://github.com/user-attachments/assets/4f76c096-c3dc-42b1-a916-9c9e3d48d80a" width="800px">
 </ul>
+<HR>
+<BR>
 <li>Legendas (DisconectedMelody) </li>
-<br>
-(Corrigido bug no qual alguns tipos especificos de legendas não apareciam) 
 <ul>
-<br>
+  
+Corrigido bug no qual alguns tipos especificos de legendas não apareciam 
+
 Nas Cutscenies de pegar item Especial
 <img src="https://github.com/user-attachments/assets/896b1c83-c346-4a43-a526-a7bbf4191ff5" width="800px">
   
@@ -61,27 +64,28 @@ Nas Cutscenies de pegar item Especial
 Falas do CID<br>
 <img src="https://github.com/user-attachments/assets/6e7de5f8-3a33-4c65-997d-88a2b9a45cd2" width="800px">
 
-<br>
+<br><br>
 Legendas de uma Linha em Batalha com Boss
 <img src="https://github.com/user-attachments/assets/40b2c3fb-daf3-40e8-b700-3cbbf7668a94" width="800px">
 
 </ul>
-
+<HR>
+<BR>
 <li>Posição do Herói na Tela </li>
-<br>
-(Corrigido bug no qual a Camera não acompanhava o herói corretamente)
 <ul>
+  Corrigido bug no qual a Camera não acompanhava o herói corretamente.
 <img src="https://github.com/user-attachments/assets/cc5cc108-dc83-4665-a724-7eacae03dec8" width="800px">
 
 </ul>
-
+<HR>
+<BR>
 <li>"Shake" na camera ao levar dano</li>
-<br>
-Corrigido um bug no qual quando a tela tremia, mostrava a parte inferior não desenhada do cenario
 <ul>
+  Corrigido um bug no qual quando a tela tremia, mostrava a parte inferior não desenhada do cenario
 <img src="https://github.com/user-attachments/assets/845b586f-d0ad-48bb-acd0-0ee296d6cd8b" width="800px">
 </ul>
-
+<HR>
+<BR>
 <li>Posição da camera no final da fase </li>
 <ul>
   O Jogo não mostrava o resto do cenario, ou ele ficava cortado (Neste exemplo o cenario era um pouco maior para a direita).
@@ -91,24 +95,37 @@ Corrigido um bug no qual quando a tela tremia, mostrava a parte inferior não de
   Corrigido<br>
   <img src="https://github.com/user-attachments/assets/f7727924-3c69-4dad-b91b-03b5ad2733b2" width="800px">
 </ul>
-
+<HR>
 <li>Posição do ScoreBoard (Ajustado para a nova posição de tela)</li>
 <ul>
 <img src="https://github.com/user-attachments/assets/f36400c9-2e92-4eda-b233-73cf3a5b384a" width="800px">
 <img src="https://github.com/user-attachments/assets/4da34dbd-8e3d-4afd-93cd-262f7dec6527" width="800px">
 </ul>
-
+<HR>
 <li>LowLifeShader (Para se aplicar a nova area)</li>
 <li>Bordas cinematograficas, Stage Intro e Stage Title(Corrigido as posições)</li>
-
 <ul>
 <img src="https://github.com/user-attachments/assets/7ad41124-087d-4cd4-b6ef-c05c0ac67676" width="800px">
 </ul>
+<HR>
 
 <li>Lame Transition (Corrigido a area do efeito transição das fases)</li>
-<li>Parallax Texture Render loopX (Corrigido a renderização do cenário "Parallax" do fundo das fases ao andar no eixo X)</li>
-<li>Parallax Texture Render loopY (Corrigido a renderização do cenário "Parallax" do fundo das fases ao andar no eixo Y (Como na fase 3, onde se pode cair rapidamente))</li>
-
+<li>Parallax Texture Render loopX </li>
+<ul>
+Corrigido a renderização do cenário "Parallax" do fundo das fases ao andar para a esquerda e direita.
+(No bug em questão, essas partes selecionadas não carregavam devidamente, sendo necessario uma reestruturação no LOOP para se adaptar a nova resolução)
+<img src="https://github.com/user-attachments/assets/7292d050-c8b8-4902-b3d9-850bbd4489a3" width="800px">
+</ul>
+<hr>
+<br>
+<li>Parallax Texture Render loopY 
+</li>
+<ul>
+Corrigido a renderização do cenário "Parallax" do fundo das fases ao subir e descer no eixo Y (Como na fase 3, onde se escalar até o topo)
+<img src="https://github.com/user-attachments/assets/18b93f39-f845-47ca-adaf-5997704a27b4" width="800px">
+</ul>
+<hr>
+<br>
 <li>Shaders do Boss (Gorilize, tint, white etc) </li>
 Corrigido um bug no qual os bosses ficavam esticados quando entravam na segunda etapa, e não condizia com a area da sua Hitbox após passar para a segunda etapa de fight.
 <ul>
