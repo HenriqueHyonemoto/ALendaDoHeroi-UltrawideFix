@@ -169,13 +169,16 @@ Corrigido a renderização do cenário "Parallax" do fundo das fases ao subir e 
 <img src="https://github.com/user-attachments/assets/05c257de-4c15-4ac5-9003-e2413da82103" width="800px">
 <img src="https://github.com/user-attachments/assets/c363171b-b11b-48f5-8141-1fced5052bc0" width="800px">
 </ul>
-
+<hr>
+<br>
 <li>Cutscenies (Foram Centralizadas)</li>
 <br>
 Antes ficavam a esquerda.
 <ul>
 <img src="https://github.com/user-attachments/assets/3efb0bad-35e4-4e75-ab30-ab734c5226a6" width="800px">
 </ul>
+<hr>
+<br>
 <li>Tempestade Fase5 Ato3</li>
 <ul>
   A Tempestade aparecia cortada.
@@ -183,13 +186,18 @@ Antes ficavam a esquerda.
   <br>
   Foi necessário modificar o código e também expandir as imagens da tempestade.
   <img src="https://github.com/user-attachments/assets/4ea430d2-5a29-4e34-90ab-47a371a36d77" width="800px">
+</ul>
+<hr>
+<br>
+<li>Posição do Boomerang no Menu </li>
 <ul>
-<li>Posição do Boomerang no Menu (Corrigido a posição do slot em que o Boomerang ocupa no Menu)</li>
-
+  (Corrigido a posição do Boomerang no Menu Pause)
 <img src="https://github.com/user-attachments/assets/378e1111-16a7-475c-9476-37ccfbe7d219" width="800px">
 
 <img src="https://github.com/user-attachments/assets/c103895c-31ae-48c9-ab77-fb2ac1366097" width="800px">
-
+</ul>
+<hr>
+<br>
 <h2>Edições de Sprites e Videos</h2>
 <li>Imagens do Menu </li>
 <ul>
