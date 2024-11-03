@@ -36,7 +36,7 @@ Após mudar a renderização do jogo de 16:9 para 21:9, foi necessario fazer aju
 <li>Parallax Texture Render (loopY, Corrigido a renderização do cenário "Parallax" do fundo das fases)</li>
 <li>"Shake" na camera ao levar dano (Corrigido um bug no qual quando a tela tremia, mostrava uma parte não desenhada do cenario)</li>
 <li>Shaders do Boss (Gorilize, tint, white etc (Corrigido um bug no qual o boss ficava esticado, e não condizia com a area da sua Hitbox após passar para a segunda etapa de fight)</li>
-<li>Cutscenies (Foram Centralizadas)</li>l
+<li>Cutscenies (Foram Centralizadas)</li>
 <li>Tempestade Fase5 Ato3 (Corrigido a area em que a Tempestade aparece na tela)</li>
 <li>Posição do Boomerang no Menu (Corrigido a posição do slot em que o Boomerang ocupa no Menu)</li>
 
