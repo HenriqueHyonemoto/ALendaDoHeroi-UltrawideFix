@@ -200,48 +200,85 @@ Antes ficavam a esquerda.
 </ul>
 <hr>
 <br>
-<h2>Edições de Sprites e Videos</h2>
+<h2>Edição de Imagens e Videos</h2>
 <li>Imagens do Menu </li>
 <ul>
   <li>(Content/Menu/bg.xnb)</li>
+  
+  <img src="https://github.com/user-attachments/assets/c1793d85-92f6-4743-8fe4-cc4e4f87c949" width="391px">  ->
+  <img src="https://github.com/user-attachments/assets/647e9324-6734-4350-a823-10d0a92dec0c" width="521px">
   <li>(Content/Menu/bgmainMenu.xnb)</li>
+  <img src="https://github.com/user-attachments/assets/2261cebc-8c93-41c5-a96e-80c8b979d345" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/7cdfd3ef-5d9a-42e9-a5f6-3f8393075451" width="521px">
   <li>(Content/Menu/bgsubMenu.xnb)</li>
+  <img src="https://github.com/user-attachments/assets/5ea1221a-ac2d-4200-a853-6051bcf6086d" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/cbca8da7-729b-4543-ac02-9dda98f160b6" width="521px">
   <li>(Content/Menu/Save/saves_bg.xnb)</li>
+  <img src="https://github.com/user-attachments/assets/706f93af-9fe6-4d60-bcf8-88c0b8d45c34" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/a731463a-712a-4fbc-b24c-f247ce67d771" width="521px">
 </ul>
 <li>Bordas Cinematograficas do inicio</li>
 <ul>
   <li>(Content/cinema.xnb)</li>
+  <img src="https://github.com/user-attachments/assets/c4e4f56d-25fa-4912-beeb-3f0c415d296e" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/4f935b5d-c709-456a-96b3-47e924e6a9c4" width="521px">
 </ul>
 <li>Armario</li>
 <ul>
   <li>(Content/Menu/Armario/armario_bg.xnb)</li>
+  <img src="https://github.com/user-attachments/assets/813c58e9-37e8-4256-a704-38e164d09a4b" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/15dca433-6aff-4131-a049-5b54590f7988" width="521px">
   <li>(Content/Menu/Armario/armario_bgEN.xnb)</li>
+  <img src="https://github.com/user-attachments/assets/14c393cd-c102-4864-aa8c-ddbea62c1371" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/67e01860-28e4-44df-b7a2-eabb5251d03d" width="521px">
 </ul>
 <li>Lame Transition</li>
 <ul>
   <li>(Content/lame_transition.xnb)</li>
+  <img src="https://github.com/user-attachments/assets/b9116d76-b7f2-4af2-9493-4f89da8729c7" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/86568cef-31c0-42eb-ade4-8f55dfef0518" width="521px">
 </ul>
 <li>Cutscenes InicioDeTudo</li>
 <ul>
   <li>Content/Objects/logo.xnb</li>
+  <img src="https://github.com/user-attachments/assets/2897d46e-f02a-40d8-9cda-f235b5013c3a" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/af3f0ee5-813e-4466-bb6b-1aa6f4890866" width="521px">
   <li>Content/Objects/logoEN.xnb</li>
+  <img src="https://github.com/user-attachments/assets/06ab9091-8b85-44c5-8821-f6db05cad858" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/765de317-1c02-4d7d-a4c3-512605de959a" width="521px">
 </ul>
 <li>Cutscenes da Princesa</li>
 <ul>
 <li>Content/Objects/Videos/margem_fase9.xnb</li>
+  <img src="https://github.com/user-attachments/assets/27c4753b-b2c8-4b57-b78a-05e1cfe318d6" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/ba06e426-7700-4a35-bcbd-0b6ceaeca155" width="521px">
 <li>Content/Objects/Videos/margem_final.xnb</li>
+  <img src="https://github.com/user-attachments/assets/321ef187-f5d6-4a6f-928e-8d815ef25160" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/ca4ff125-a1c0-4c46-abd7-2de605ca9360" width="521px">
 <li>Content/Objects/Videos/margem_princesa.xnb</li>
+  <img src="https://github.com/user-attachments/assets/190d97bd-c53a-49d9-bffd-7eca9161384a" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/3790cfac-a104-4a46-9f45-e0f8bdf47937" width="521px">
 </ul>
 <li>Fase 5: Ventaria (Corrigido a renderização da Ventaria)</li>
 <ul>
   <li>Content/Objects/tornado_bg.xnb</li>
+  <img src="https://github.com/user-attachments/assets/af4acd80-a2be-412d-9a10-e9e94257ae5f" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/324fa882-ce66-4517-b2f2-8bc4629b4045" width="521px">
   <li>Content/Objects/tornado_front.xnb</li>
+  <img src="https://github.com/user-attachments/assets/e44012d7-e2c8-4819-acd8-db485d506381" width="391px"> ->
+  <img src="https://github.com/user-attachments/assets/324057a2-a9f2-4038-9aa5-334e1bc13c57" width="521px">
 </ul>
 <li>Fase 6: Aurora (Corrigido a renderização das Auroras Boreais)</li>
 <ul>
   <li>Content/Levels/6/aurora/1.xnb</li>
+  <img src="https://github.com/user-attachments/assets/f8b6d365-12be-4e17-a95c-50db86ba6302" width="391px"> ->
+  <img src="" width="521px">
   <li>Content/Levels/6/aurora/2.xnb</li>
+  <img src="https://github.com/user-attachments/assets/7748b206-71fa-4286-9026-49c067961aff" width="391px"> ->
+  <img src="" width="521px">
   <li>Content/Levels/6/aurora/3.xnb</li>
+  <img src="https://github.com/user-attachments/assets/fe7dbdf3-1613-42e3-ba8f-c0dfff41d264" width="391px"> ->
+  <img src="" width="521px">
 </ul>
 </ul>
 
