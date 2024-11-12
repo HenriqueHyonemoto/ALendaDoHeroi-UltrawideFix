@@ -1,6 +1,8 @@
 # ALendaDoHeroi-UltrawideFix
 
-**ALendaDoHeroi-UltrawideFix** é uma modificação criada para permitir que o jogo seja renderizado em ultrawide (21:9). Testado em resolução 2560x1080.
+A Lenda do Herói é um jogo que não oferece suporte nativo para monitores ultrawide, resultando em bordas pretas verticais caso você use um monitor com essas proporções.
+
+**ALendaDoHeroi-UltrawideFix** é uma modificação criada para permitir que o jogo seja renderizado em Ultrawide (21:9). Testado em resolução 2560x1080.
 
 O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
 
