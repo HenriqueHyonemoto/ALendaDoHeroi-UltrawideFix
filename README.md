@@ -44,7 +44,7 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
   <ul id="instalar">
     <li>Abra sua biblioteca Steam.</li>
     <li>Procure pelo jogo -> Clique com o botão direito -> Gerenciar -> Explorar Arquivos Locais.</li>
-    <li>Faça o <a href="">download</a> deste repositório e copie a pasta "Content" e o arquivo "DumaLegend.exe" para dentro deste diretório (para instalar o mod).</li>
+    <li>Faça o <a href="https://github.com/HenriqueHyonemoto/ALendaDoHeroi-UltrawideFix/releases">download</a> deste repositório e arraste a pasta "Content" e o arquivo "DumaLegend.exe" para dentro deste diretório (para instalar o mod).</li>
     <img src="https://github.com/user-attachments/assets/d465ca2c-1006-4641-9c26-b0387abe3999" width="600px">
     <li>Feito isso, você pode criar um atalho clicando com o botão direito em "DumaLegend" -> Enviar Para -> Área de Trabalho.</li>
   </ul>
