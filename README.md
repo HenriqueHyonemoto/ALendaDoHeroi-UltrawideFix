@@ -17,7 +17,7 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
 - [Instalação](#utilizar)
   - [Desativando Atualizações](#desativa-update)
   - [Instalando o Mod](#instalar)
-  - - [Desinstalando o Mod](#desinstalar)
+  - [Desinstalando o Mod](#desinstalar)
 - [O que foi Modificado?](#modificado)
   - [No Código](#código)
   - [Nos Arquivos do Jogo](#arquivos)
