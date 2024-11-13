@@ -17,6 +17,7 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
 - [Instalação](#utilizar)
   - [Desativando Atualizações](#desativa-update)
   - [Instalando o Mod](#instalar)
+  - - [Desinstalando o Mod](#desinstalar)
 - [O que foi Modificado?](#modificado)
   - [No Código](#código)
   - [Nos Arquivos do Jogo](#arquivos)
@@ -49,6 +50,7 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
   </ul>
 </ul>
 
+<h1 id="desinstalar">Como desinstalar o mod?</h1>
 
 <h1 id="modificado">O que foi modificado?</h1>
 <p>Para ajustar a renderização do jogo de 16:9 para 21:9, foi necessário alterar valores e funções dentro do código do executável. Também foram feitos ajustes na posição de ícones, menus, ampliação da área "extra" em certos sprites e correções de vários bugs causados pela nova resolução.</p>
