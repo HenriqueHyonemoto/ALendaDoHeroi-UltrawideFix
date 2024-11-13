@@ -51,6 +51,11 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
 </ul>
 
 <h1 id="desinstalar">Como desinstalar o mod?</h1>
+- Va na sua biblioteca Steam.
+- Clique com botão direito no jogo -> Propriedades -> Arquivos Instalados -> Verifique a integridade.
+- Abra o jogo.
+
+Prontinho, desinstalado! 
 
 <h1 id="modificado">O que foi modificado?</h1>
 <p>Para ajustar a renderização do jogo de 16:9 para 21:9, foi necessário alterar valores e funções dentro do código do executável. Também foram feitos ajustes na posição de ícones, menus, ampliação da área "extra" em certos sprites e correções de vários bugs causados pela nova resolução.</p>
