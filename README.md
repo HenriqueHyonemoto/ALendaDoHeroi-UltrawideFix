@@ -51,9 +51,11 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
 </ul>
 
 <h1 id="desinstalar">Como desinstalar o mod?</h1>
-- Va na sua biblioteca Steam.
-- Clique com botão direito no jogo -> Propriedades -> Arquivos Instalados -> Verifique a integridade.
-- Abra o jogo.
+<ul>
+<li>Va na sua biblioteca Steam.</li>
+<li>Clique com botão direito no jogo -> Propriedades -> Arquivos Instalados -> Verifique a integridade.</li>
+<li>Abra o jogo.</li>
+</ul>
 
 Prontinho, desinstalado! 
 
