@@ -15,7 +15,7 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
 <h1>Índice</h1>
 
 - [Instalação](#utilizar)
-  - [Desativando Atualizações](#desativa-update)
+  - [Desativando Atualizações Automaticas da Steam](#desativa-update)
   - [Instalando o Mod](#instalar)
   - [Desinstalando o Mod](#desinstalar)
 - [O que foi Modificado?](#modificado)
@@ -24,9 +24,13 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
 
 <!-- /TOC -->
 
-<h1 id="utilizar">Como utilizar o Mod?</h1>
+<h1 id="utilizar">Por que desativar as atualizações automaticas da Steam?</h1>
 
-<p>Este mod foi criado com base na modificação do executável do jogo na versão 5.1.1dx. Isso significa que, se você atualizar seu jogo, esse executável será substituído, e o mod deixará de funcionar. Portanto, precisamos fazer com que a Steam não atualize seu jogo.</p>
+<p>Este mod foi criado com base na modificação do executável do jogo na versão 5.1.1dx. Isso significa que, se você atualizar seu jogo, esse executável será substituído, e o mod deixará de funcionar. Portanto, precisamos fazer com que a Steam não atualize seu jogo automaticamente.</p>
+
+> [!NOTE]
+> Isso só se aplica a este jogo, os demais, atualizarão normalmente.
+
 
 <ul id="desativa-update">
   <li>Saia da sua Steam (Steam -> Sair).</li>
@@ -41,14 +45,16 @@ O mod ainda está em desenvolvimento. Caso encontre bugs, por favor, informe!
   <li>Agora, sempre que for executar o jogo, abra-o através do seu executável na pasta onde ele está instalado.</li>
   <br>
   <p>Se você não sabe onde o jogo está localizado, siga estes passos:</p>
+</ul>
+<h1 id="instalar">Colocando os arquivos na pasta do jogo</h1>
   <ul id="instalar">
     <li>Abra sua biblioteca Steam.</li>
     <li>Procure pelo jogo -> Clique com o botão direito -> Gerenciar -> Explorar Arquivos Locais.</li>
-    <li>Faça o <a href="https://github.com/HenriqueHyonemoto/ALendaDoHeroi-UltrawideFix/releases">download</a> deste repositório e arraste a pasta "Content" e o arquivo "DumaLegend.exe" para dentro deste diretório (para instalar o mod).</li>
+    <li>Faça o <a href="https://github.com/HenriqueHyonemoto/ALendaDoHeroi-UltrawideFix/releases">download</a> do arquivo.rar deste repositório, e arraste a pasta "Content" e o arquivo "DumaLegend.exe" para dentro deste diretório (para instalar o mod).</li>
     <img src="https://github.com/user-attachments/assets/d465ca2c-1006-4641-9c26-b0387abe3999" width="600px">
     <li>Feito isso, você pode criar um atalho clicando com o botão direito em "DumaLegend" -> Enviar Para -> Área de Trabalho.</li>
   </ul>
-</ul>
+
 
 <h1 id="desinstalar">Como desinstalar o mod?</h1>
 <ul>
